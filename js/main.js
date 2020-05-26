@@ -64,4 +64,18 @@ function submitted(e) {
   } )
 
 }
+
+function swapModal(mod1, mod2){
+  $(mod1).modal('hide');
+  $(mod2).modal('show');
+}
+
+
+
+
 setupSearch()
+
+var selector = document.getElementById('sector')
+categories.forEach( c => {
+  selector.appendChild(makeElement('option', {text:c, value: c}))
+} )
