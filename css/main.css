@@ -1213,7 +1213,10 @@ footer {
 }
 
 
-.something {
-    color: 
-}
 
+.text-content {
+  background: #fff;
+  opacity: .9;
+  color: darkgreen;
+  font-size: 1.2em;
+}

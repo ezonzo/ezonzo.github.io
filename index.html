@@ -175,19 +175,20 @@
           </div>
           <div class="modal-body">
             <div class="contact-container">
-              <form action="">
+              <form action="https://formspree.io/xvowgvor" method="POST">
                 <span class="left-side">
-                  <input type="text" id="company" name="company" placeholder="Il nome della tua attività"  />
+                  <input type="text" id="company" name="company" placeholder="Il nome della tua attività"  required/>
                 </span>
                 <span class="right-side">
-                  <select id="sector" name="sector">
+                  <select id="sector" name="sector" required>
+                    <option disabled selected value> Seleziona una categoria</option>
 
                   </select>
                 </span>
 
                 <span class="left-side">
                   <!-- <input type="text" id="logo" name="logo" placeholder="Link al tuo logo se ne hai uno"  /> -->
-                  <label for="files" class="btn">clicca per aggiungere tuo logo (opzionale)</label>
+                  <label for="files" class="btn">clicca per aggiungere tuo logo (facoltativo)</label>
                   <input id="files" style="visibility:hidden;" type="file", name="attachment" accept="image/png, image/jpeg, image/svg">
                 </span>
 
@@ -195,14 +196,14 @@
                 <!--   <a> Ancora non ho un eshop</a> -->
                 <!-- </span> -->
                 <span class="left-side">
-                  <input type="text" id="eshop" name="eshop" placeholder="Indirzzo del tuo eshop"  />  
+                  <input type="url" id="eshop" name="eshop" placeholder="Indirzzo del tuo eshop"  />  
                 </span>
 
                 <span class="right-side">
                   <i><a href="#" class='swap-modal' onclick="swapModal('#addEshop','#eshopGuide')"> Non possiedo ancora un eshop</a></i>
                 </span>
                 <span style="clear:both;"></span>
-                <textarea id="subject" name="subject" placeholder="IL tuo messaggio.." required ></textarea>
+                <textarea id="subject" name="subject" placeholder="Note, domande, commenti (facoltativo)" required ></textarea>
 
                 <input type="checkbox" id="terms" value="terms" required>
                 <label class="terms-check" for="terms">Ho letto e accetto la <a href="privacy-policy.html">Privacy Policy</a> del sito.</label><br>
