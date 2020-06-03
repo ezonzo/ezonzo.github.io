@@ -57,6 +57,8 @@ function submitted(e) {
 
   console.log(updatedResults)
   $("#results").html("")
+  let resultIntro = makeElement('div', {className: 'search-bar result-intro', innerHTML: 'Cerca su..'})
+  $("#results").append(resultIntro)
   let row = makeElement('div', {className: 'row rowResult'})
   $("#results").append(row)
   updatedResults.forEach( r => {

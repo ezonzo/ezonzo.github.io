@@ -1305,4 +1305,9 @@ footer {
   font-size: 1.2em;
 }
 
+.result-intro {
+  background-color: white;
+  max-width: 790px;
+  margin: auto;
+}
 
