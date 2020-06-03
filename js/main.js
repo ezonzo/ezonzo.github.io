@@ -57,7 +57,7 @@ function submitted(e) {
 
   console.log(updatedResults)
   $("#results").html("")
-  let resultIntro = makeElement('div', {className: 'search-bar result-intro', innerHTML: 'Cerca su..'})
+  let resultIntro = makeElement('div', {className: 'search-bar result-intro', innerHTML: 'Cerca "' + text + '" su..'})
   $("#results").append(resultIntro)
   let row = makeElement('div', {className: 'row rowResult'})
   $("#results").append(row)
