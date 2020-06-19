@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\giosuè\ez.cielo.png"
+   sodipodi:docname="ez.pittura densa.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg839"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs833">
+    <linearGradient
+       id="linearGradient1565"
+       inkscape:collect="always">
+      <stop
+         id="stop1561"
+         offset="0"
+         style="stop-color:#90a2c5;stop-opacity:1;" />
+      <stop
+         id="stop1563"
+         offset="1"
+         style="stop-color:#90a2c5;stop-opacity:0;" />
+    </linearGradient>
+    <filter
+       inkscape:menu-tooltip="Thick painting effect with turbulence"
+       inkscape:menu="Bumps"
+       id="filter1543"
+       inkscape:label="Thick Paint"
+       style="color-interpolation-filters:sRGB;">
+      <feFlood
+         id="feFlood1533"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1535"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1537"
+         result="blur"
+         stdDeviation="3"
+         in="composite1" />
+      <feOffset
+         id="feOffset1539"
+         result="offset"
+         dy="6"
+         dx="6" />
+      <feComposite
+         id="feComposite1541"
+         result="fbSourceGraphic"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix2071"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         stdDeviation="0.9"
+         result="result6"
+         id="feGaussianBlur2073" />
+      <feTurbulence
+         result="result2"
+         numOctaves="3"
+         baseFrequency="0.12"
+         type="fractalNoise"
+         id="feTurbulence2075" />
+      <feDisplacementMap
+         in="result6"
+         result="result5"
+         scale="10"
+         xChannelSelector="R"
+         yChannelSelector="A"
+         id="feDisplacementMap2077"
+         in2="result2" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="lighten"
+         in="result6"
+         id="feBlend2079"
+         in2="result5" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         type="luminanceToAlpha"
+         result="result2"
+         id="feColorMatrix2081" />
+      <feDiffuseLighting
+         surfaceScale="-4"
+         result="result1"
+         diffuseConstant="0.65"
+         id="feDiffuseLighting2083">
+        <feDistantLight
+           elevation="35"
+           azimuth="225"
+           id="feDistantLight2085" />
+      </feDiffuseLighting>
+      <feComposite
+         operator="arithmetic"
+         in="result1"
+         k1="1.37"
+         k3="0.5"
+         result="result3"
+         id="feComposite2087"
+         in2="fbSourceGraphic" />
+      <feComposite
+         in="result3"
+         operator="in"
+         result="result5"
+         id="feComposite2089"
+         in2="result3" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.40228756,0,129.68567)"
+       r="259.66501"
+       fy="216.97"
+       fx="420.995"
+       cy="216.97"
+       cx="420.995"
+       id="radialGradient1569"
+       xlink:href="#linearGradient1565"
+       inkscape:collect="always" />
+    <filter
+       id="filter1605"
+       inkscape:label="Brilliance"
+       style="color-interpolation-filters:sRGB;">
+      <feColorMatrix
+         id="feColorMatrix1603"
+         values="2 -0.5 -0.5 0 0 -0.5 2 -0.5 0 0 -0.5 -0.5 2 0 0 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="39"
+     inkscape:window-height="860"
+     inkscape:window-width="1545"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="323.84294"
+     inkscape:cx="380.71429"
+     inkscape:zoom="0.7"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       id="grid1531"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Livello 1">
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="filter:url(#filter1543)"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.7989738,-1.1846524)"
+       id="g1529">
+      <g
+         transform="translate(1.4648438e-5,-0.83999023)"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="fill:none;fill-opacity:1;paint-order:markers stroke fill"
+         id="g1493">
+	<path
+   sodipodi:nodetypes="cccscsccc"
+   style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.67622;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+   class="st0"
+   d="m 165.33,342.02 504.02,-1.72 3.02,176.78 c 0,0 -18.53,-108.38 -120.88,-108.38 -102.36,0 -130.1,109.65 -130.1,109.65 0,0 -28.08,-109.65 -125.79,-109.65 -88.4,0 -126.39,108.8 -126.39,108.8 l -1.17442,-53.11507 z"
+   id="path1491" />
+
+</g>
+      <line
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="stroke:#ffffff;stroke-opacity:1"
+         class="st0"
+         x1="421.39001"
+         y1="517.51001"
+         x2="421.39001"
+         y2="342.01999"
+         id="line1495" />
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="fill:#90a2c5;fill-opacity:1;filter:url(#filter1605)"
+         id="g1509">
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="m 211.44,235.96 h 21.28 v 44.53 c 0,27.29 -12.12,40.93 -36.35,40.93 -23.36,0 -35.04,-13.64 -35.04,-40.93 V 154.1 c 0,-13.75 3,-24.12 9,-31.11 6,-6.98 14.68,-10.48 26.03,-10.48 24.23,0 36.35,13.87 36.35,41.58 v 65.16 H 182.3 v 61.23 c 0,12.01 4.69,18.01 14.08,18.01 10.04,0 15.06,-6 15.06,-18.01 z m 0,-81.86 c 0,-12 -5.02,-18.01 -15.06,-18.01 -9.39,0 -14.08,6.01 -14.08,18.01 v 48.79 h 29.14 z"
+   id="path1497" />
+
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="m 248.11,318.48 v -20.96 l 46.17,-159.46 h -45.52 v -22.27 h 67.13 v 20.96 L 270.7,295.56 h 44.86 v 22.92 z"
+   id="path1499" />
+
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="m 330.96,153.12 c 0,-13.1 3.05,-23.14 9.17,-30.13 6.11,-6.98 15.5,-10.48 28.16,-10.48 12.44,0 21.77,3.49 28,10.48 6.22,6.99 9.33,17.03 9.33,30.13 v 128.03 c 0,13.1 -3.11,23.08 -9.33,29.96 -6.22,6.88 -15.55,10.32 -28,10.32 -12.66,0 -22.05,-3.44 -28.16,-10.32 -6.11,-6.87 -9.17,-16.86 -9.17,-29.96 z m 52.72,0.65 c 0,-5.67 -1.04,-10.09 -3.11,-13.26 -2.08,-3.16 -6.17,-4.75 -12.28,-4.75 -6.11,0 -10.21,1.59 -12.28,4.75 -2.08,3.17 -3.11,7.59 -3.11,13.26 v 127.38 c 0,5.68 1.03,9.99 3.11,12.93 2.07,2.95 6.16,4.42 12.28,4.42 6.11,0 10.2,-1.53 12.28,-4.59 2.07,-3.05 3.11,-7.53 3.11,-13.42 z"
+   id="path1501" />
+
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="M 481.25,318.48 V 151.16 c 0,-5.9 -0.98,-10.1 -2.95,-12.61 -1.96,-2.51 -5.35,-3.76 -10.15,-3.76 -3.27,0 -6.55,0.98 -9.82,2.95 -3.27,1.96 -5.79,5.13 -7.53,9.5 V 318.5 H 428.2 V 115.79 h 18.99 c 0.65,5.02 0.98,10.15 0.98,15.39 3.05,-5.68 7.09,-10.2 12.12,-13.59 5.02,-3.38 10.69,-5.08 17.03,-5.08 9.17,0 15.88,2.95 20.14,8.84 4.26,5.89 6.38,15.39 6.38,28.49 v 168.63 h -22.59 z"
+   id="path1503" />
+
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="m 523.49,318.48 v -20.96 l 46.17,-159.46 h -45.52 v -22.27 h 67.13 v 20.96 l -45.19,158.81 h 44.86 v 22.92 z"
+   id="path1505" />
+
+	<path
+   style="fill:#90a2c5;fill-opacity:1"
+   d="m 606,153.12 c 0,-13.1 3.05,-23.14 9.17,-30.13 6.11,-6.98 15.5,-10.48 28.16,-10.48 12.44,0 21.77,3.49 28,10.48 6.22,6.99 9.33,17.03 9.33,30.13 v 128.03 c 0,13.1 -3.11,23.08 -9.33,29.96 -6.22,6.88 -15.55,10.32 -28,10.32 -12.66,0 -22.05,-3.44 -28.16,-10.32 -6.11,-6.87 -9.17,-16.86 -9.17,-29.96 z m 52.72,0.65 c 0,-5.67 -1.04,-10.09 -3.11,-13.26 -2.08,-3.16 -6.17,-4.75 -12.28,-4.75 -6.11,0 -10.21,1.59 -12.28,4.75 -2.08,3.17 -3.11,7.59 -3.11,13.26 v 127.38 c 0,5.68 1.03,9.99 3.11,12.93 2.07,2.95 6.16,4.42 12.28,4.42 6.11,0 10.2,-1.53 12.28,-4.59 2.07,-3.05 3.11,-7.53 3.11,-13.42 z"
+   id="path1507" />
+
+</g>
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style1489">
+	.st0{fill:none;stroke:#000000;stroke-width:7.6751;}
+</style>
+</svg>
