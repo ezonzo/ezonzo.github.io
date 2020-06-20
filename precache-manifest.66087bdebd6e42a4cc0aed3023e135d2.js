@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "223412ee21844ae4b67cd10fccdf1077",
+    "revision": "c8e5adcdedc628943dbb5dd71d302900",
     "url": "/index.html"
   },
   {
-    "revision": "009022fa2742d56eee8d",
-    "url": "/static/css/main.d280d06f.chunk.css"
+    "revision": "b7d648bb8728dd68107a",
+    "url": "/static/css/main.270c6967.chunk.css"
   },
   {
     "revision": "a704fad1922e355fe0c0",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b202cb6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "009022fa2742d56eee8d",
-    "url": "/static/js/main.99782ff5.chunk.js"
+    "revision": "b7d648bb8728dd68107a",
+    "url": "/static/js/main.184c4c72.chunk.js"
   },
   {
     "revision": "fd1d6c59724620db742d",
     "url": "/static/js/runtime-main.35ea6e92.js"
   },
   {
-    "revision": "2b75c51d7b9cf36ff19edac5539961ab",
-    "url": "/static/media/EZONZO.2b75c51d.svg"
+    "revision": "3df0e6c6f7c9101168cc3e4975eba65a",
+    "url": "/static/media/EZONZO_3.3df0e6c6.svg"
   },
   {
     "revision": "01292903163cc7ee36b5ef44ea74c831",
